@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Connexion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="screen" href="connexion.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a style="font-size: 16px;" class="navbar-brand" href="#">Espace Membre</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li>
+            <a style="font-size: 16px;" href="index.html">Acceuil</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a style="font-size: 16px;" href="inscription.html">
+              <span style="font-size: 16px;" class="glyphicon glyphicon-user"></span> S'inscrire</a>
+          </li>
+          <li class="active">
+            <a style="font-size: 16px;" href="connexion.html">
+              <span style="font-size: 16px;" class="glyphicon glyphicon-log-in"></span> Se connecter</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="connexion">
+        <div class="img-connexion">
+
+          <img src="image-connexion.jpg" class="responsive">
+
+        </div>
+        <div class="  Connexion-form"></div>
+          <form class=" modal-content">
+            <div class=" register">
+              <h2>
+                <i>CONNECTEZ-VOUS</i>
+              </h2>
+              <br>
+              <input type="text" placeholder="Pseudo" id="pseudo" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Le pseudo doit etre une combinaison de lettres et de numéros"
+                required="">
+              <br>
+              <input type="password" placeholder="Mot de passe" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Le mot de passe doit etre une combinaison de caractères,numéros et au moins une lettre majiscule"
+                required="">
+              <br>
+              <input type="checkbox" id="connect" style="margin-left: 50px;margin-bottom:15px"> Restez connecté
+              <a> Mot de passe oublié</a>
+              <br>
+              <button onclick="connectez()" id="btn" class="signupbtn">
+                <b>SE CONNECTER</b>
+              </button>
+              <br>
+              <p style=>OU </p>
+              <div class="btn-social">
+                <input type="button" onclick="location.href='http://facebook.com';" value="FACEBOOK" />
+                <input type="button" onclick="location.href='http://twitter.com';" value="TWITTER" />
+              </div>
+              <p style=" margin-top: 25px;margin-left: 29px"> Vous n'avez pas de compte?
+                <a href="inscription.html" style="margin-left: 5px">Inscrivez-vous</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer class="container-fluid footer">
+    <div class="copy-right" style="height:50px">
+      <p> 2018 © Tous les droits sont réservés. Site créé par Sawsen Machta</p>
+    </div>
+    <div class="social-media">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+  </footer>
+  <script src="connexion.js"></script>
+</html>

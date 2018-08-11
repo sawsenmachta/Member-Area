@@ -1,0 +1,319 @@
+body {
+    margin: auto;
+    max-width: 1400px;
+    min-width: 360px;
+    min-height: 640px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 300px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 2px;
+    background: #f1f1f1;
+    margin-left: 100px;
+}
+
+.inscription {
+    display: flex;
+}
+
+.image-inscription {
+    flex: 1;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.image-inscription>img {
+    height: 650px;
+    width: 600px;
+}
+
+.insc-form {
+    flex: 1;
+}
+
+.modal-content {
+    height: 650px;
+    width: 600px;
+    margin-top: -20px;
+    margin-left:-40px
+}
+
+.modal-content>p {
+    margin-left: 99px;
+    margin-top: 15px;
+}
+
+.modal-content>h1 {
+    color: rgb(215, 218, 32);
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-content>.signupbtn {
+    width: 300px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: rgb(215, 218, 32)
+}
+
+.modal-content>input {
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    font-size: 14px;
+    padding: 20px;
+    color: rgb(214, 211, 211);
+}
+
+.copy-right {
+    flex: 3;
+    margin-top: 18px;
+}
+
+.social-media {
+    flex: 1;
+}
+
+/*social media*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #3B5998;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #55ACEE;
+    color: white;
+}
+
+.instagram {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: rgb(72, 167, 240);
+    color: white;
+}
+
+.youtube {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: rgb(184, 9, 9);
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width:960px) {
+    .modal-content {
+        margin-top: 0px;
+    }
+    .inscription {
+        display: flex;
+        flex-direction: column;
+    }
+    .madal-content {
+        height: 650px;
+        width: 700px;
+        margin-left: 54px;
+    }
+    .footer {
+        display: flex;
+        background-color: black;
+        font-size: 15px;
+        padding: 15px;
+        color: rgb(214, 211, 211);
+    }
+    .copy-right {
+        flex: 3;
+        margin-top: 18px;
+    }
+    .social-media {
+        flex: 1;
+        margin-top: 10px;
+    }
+    /*social media*/
+    .fa {
+        padding: 15px;
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #3B5998;
+        color: white;
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .twitter {
+        padding: 15px;
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #55ACEE;
+        color: white;
+    }
+    .instagram {
+        padding: 15px;
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(72, 167, 240);
+        color: white;
+    }
+    .youtube {
+        padding: 15px;
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(184, 9, 9);
+        color: white;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    /*Pixel 2XL*/
+    .copy-right {
+        flex: 3;
+        margin-top: 18px;
+    }
+    .social-media {
+        flex: 1;
+        margin-top: 10px;
+    }
+
+    .image-inscription>img {
+       
+        width: 411px;
+        margin-left: -70px;
+        height: 321px;
+    }
+    .modal-content {
+        width: 452px;
+        /* margin-top: 53px;*/
+    }
+    .form.madal-content {
+        margin-left: -82px;
+        margin-right: 0px;
+    }
+    .connexion {
+        display: flex;
+        flex-direction: column;
+    }
+    .register {
+        margin-left: 20px;
+    }
+    .register>p {
+        margin-left: 192px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .modal-content>h1 {
+        margin-left: 49px;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=password] {
+        margin-left: 75px;
+    }
+    .modal-content>.signupbtn {
+        margin-left: 75px;
+    }
+    .modal-content>h1{
+        font-size:18px;
+       margin-left:85px;
+    }
+    .modal-content>p {
+        margin-left: 54px;
+    }
+    .footer {
+        display: flex;
+        background-color: black;
+        font-size: 10px;
+        padding: 10px;
+        color: rgb(214, 211, 211);
+    }
+    /*social media*/
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #3B5998;
+        color: white;
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .twitter {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #55ACEE;
+        color: white;
+    }
+    .instagram {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(72, 167, 240);
+        color: white;
+    }
+    .youtube {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(184, 9, 9);
+        color: white;
+    }
+}

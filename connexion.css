@@ -1,0 +1,308 @@
+.container {
+    padding: 0;
+}
+
+.responsive {
+    height: 600px;
+    width: 590px;
+    margin-top: -20px;
+}
+
+.connexion {
+    display: flex;
+}
+
+.img-connexion {
+    flex: 1
+}
+
+.Connexion-form {
+    flex: 1
+}
+
+.modal-content {
+    width: 590px;
+    height: 600px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-top: -20px;
+}
+
+
+.register>h2 {
+    color: rgb(110, 150, 16);
+    margin-left: 50px
+}
+
+.modal-content>.register>input {
+    font-style: italic;
+}
+
+.modal-content>.register>.signupbtn {
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: rgb(110, 150, 16);
+    color: white;
+}
+
+.modal-content>.register>.btn-social {
+    margin-left: 51px
+}
+
+.modal-content>.register>.btn-social>input {
+    width: 148px;
+    height: 50px;
+    margin-left: 2px;
+    background-color: rgb(110, 150, 16);
+    color: white;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 300px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 2px;
+    background: #f1f1f1;
+    margin-left: 50px;
+}
+
+.footer{
+    display:flex;
+    background-color: black;
+    font-size: 14px;
+    padding:20px;
+    color:rgb(214, 211, 211);
+}
+.copy-right{
+flex:3;
+margin-top: 18px;
+}
+.social-media{
+flex:1;
+}
+/*social media*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #3B5998;
+    color: white;
+}
+.fa:hover{
+    opacity:0.7;
+}
+.twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #55ACEE;
+    color: white;
+}
+.instagram {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: rgb(72, 167, 240);
+    color: white;
+}
+.youtube {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: rgb(184, 9, 9);
+    color: white;
+}
+
+.fa:hover{
+    opacity:0.7;
+}
+
+
+
+@media only screen and (max-width:960px) {
+    .modal-content{
+        width: 721px;
+        margin-top: 0px;
+        margin-left: 12px;
+    
+    }
+    .img {
+        height: 650px;
+        width: 411px;
+        margin-left: -70px;
+        height: 400px;
+    }
+
+    .connexion {
+        display: flex;
+        flex-direction: column;
+    }
+    .register {
+        margin-left: 150px;
+    }
+    .footer {
+        display: flex;
+        background-color: black;
+        font-size: 15px;
+        padding: 15px;
+        color: rgb(214, 211, 211);
+    }
+    .copy-right {
+        flex: 3;
+        margin-top: 18px;
+    }
+    .social-media {
+        flex: 1;
+        margin-top: 10px;
+    }
+    /*social media*/
+    .fa {
+        padding: 15px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #3B5998;
+        color: white;
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .twitter {
+        padding: 15px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #55ACEE;
+        color: white;
+    }
+    .instagram {
+        padding: 15px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(72, 167, 240);
+        color: white;
+    }
+    .youtube {
+        padding: 15px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(184, 9, 9);
+        color: white;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    /*Pixel 2XL*/
+    .responsive {
+        max-width: 100%;
+        width: 411px;
+        height: 300px;
+        margin-left: 0;
+    }
+    .modal-content {
+        width: 445px;
+        height: 600px;
+        padding-top: 30px;
+        padding-right: 30px;
+        margin-left: -34px;
+        margin-top: 0px;
+    }
+    .connexion {
+        display: flex;
+        flex-direction: column;
+    }
+    .register{
+        margin-left: 20px;
+    }
+    .register>p {
+        margin-left: 192px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .footer {
+        display: flex;
+        background-color: black;
+        font-size: 10px;
+        padding: 10px;
+        color: rgb(214, 211, 211);
+    }
+    .copy-right {
+        flex: 3;
+        margin-top: 18px;
+    }
+    .social-media {
+        flex: 1;
+        margin-top: 10px;
+    }
+    /*social media*/
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #3B5998;
+        color: white;
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .twitter {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #55ACEE;
+        color: white;
+    }
+    .instagram {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(72, 167, 240);
+        color: white;
+    }
+    .youtube {
+        padding: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: rgb(184, 9, 9);
+        color: white;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+ <head>
+  <title>Inscription</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="inscription.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+<header>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="font-size: 16px;">Espace Membre</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li ><a href="index.html" style="font-size: 16px;">Acceuil</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#"style="font-size: 16px;"><span class="glyphicon glyphicon-user" style="font-size: 16px;"></span> S'inscrire</a></li>
+                    <li><a href="connexion.html"style="font-size: 16px;"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
+                  </ul>
+                </div>
+            </nav>
+</header>
+<main>
+        <div class="inscription">
+                <div class="image-inscription" > 
+                <img src="image-inscription - Copie.jpg " >
+                </div>
+                <div class="insc-form">
+                    <form class="modal-content"  action="#">
+                              
+                              <h1 >INSCRIVEZ-VOUS</h1><br>
+                           
+                              <input type="text" placeholder=" Nom complet" id="name" required minlength="6" maxlength="6" >  <br>
+                              
+                              <input type="text"  placeholder="Pseudo" id="pseudo" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" 
+                              title="Le pseudo doit etre une combinaison de lettres et de numéros" required="" >  <br>             
+                              
+                              <input type="email"  placeholder="Email" id="email" >  <br>
+                        
+                              
+                              <input type="password" placeholder="Mot de passe" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                              title="Le mot de passe doit etre une combinaison de caractères, numéros et au moins une lettre majiscule"  required=""> <br>
+                              
+
+                              
+                              <input type="password" placeholder="Confirmer votre mot de passe" id="password-repeat" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                              title="Le mot de passe doit etre une combinaison de caractères, numéros et au moins une lettre majiscule"> <br>
+                              <input type="checkbox"  id="accept" style="margin-bottom:30px; margin-left: 100px"> J'accepte les <a>Termes et Conditions</a> <br>
+             
+                              <button  id="btn" class="signupbtn">S'INSCRIRE</button> <br>
+                              
+            
+                           <p style=> Vous avez déjà un compte?<a href="connexion.html">Connectez-vous</a></p>
+                        
+                          </form>
+</main>
+<footer class="container-fluid footer">
+    <div class="copy-right" style="height:50px">
+      <p> 2018 © Tous les droits sont réservés. Site créé par Sawsen Machta</p>
+    </div>
+    <div class="social-media">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+  </footer>>
